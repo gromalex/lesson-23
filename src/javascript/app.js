@@ -1,11 +1,6 @@
-import './hello'
-import { test2 } from './foo'
+// import './metrics'
+import { DnD } from './dnd'
 
-import { $, $$ } from './helpers'
+const element = document.querySelector('#element')
 
-// test2()
-
-// console.info('Hello from js')
-
-console.log($('h1'))
-console.log($$('h1'))
+const dndElement = new DnD(element)
